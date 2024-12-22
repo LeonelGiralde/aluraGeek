@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+   
+}   
+main {
+    display: grid; 
+    grid-template-columns: 50% 50%;
+    height: 100vh;
+ }
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 10%;
+
+}
+h2{
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px ;
+}
+
+#items_form{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+#button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+#item{
+    width: 100%;
+    
+}
+
+#cont_cards{
+    box-shadow: 10px 5px 5px rgb(102, 102, 102);
+    margin: 50px;
+    display: grid;
+    grid-template-columns:30% 30% 30%;
+    justify-content:space-between;
+}
+
+.card{
+    margin:10px;
+    border: 1px solid black;
+
+}
+
+
+#item_card2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    border-radius: 5px;
+    }
+
+    #pie_card{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 5px;
+    }
+    
+    .delete{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10%;
+        border-radius: 5px;
+        background-color: red;
+        color: white;
+    }
+
+    .imagen{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        width: 100%;
+    }
+
+    .producto{
+        display: block;
+        align-items: center;
+        margin: 2%;
+        
+    }
+
+    .productos {
+        height: 100%; 
+        overflow-y: auto; 
+    }

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura AluraGeek</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=delete" />
+</head>
+<body>
+    <header>
+
+        <h1>AluraGeek</h1>
+
+    </header>
+    <main>
+        <section class="productos">
+            <h2>Mis productos:</h2>
+            
+            <div id="cont_cards" data-lista>  </div>
+          
+        </section>
+        
+        <section class="formulario" data-formulario>
+            
+            <h2>Agregar productos:</h2>
+
+                <form action="index.php" method="post">
+                
+                <div class="name" id="items_form">
+                    
+                    <input type="text" name="nombre" id="item" placeholder="Nombre" data-nombre>
+                </div>
+
+                <div class="price" id="items_form">
+                    <input type="number" name="precio" id="item" placeholder="Precio"required data-precio>
+                </div>
+
+                <div class="img" id="items_form">
+                    <input type="url" name="imagen" id="item" placeholder="Url imagen"required data-imagen>
+                </div>
+                
+                <div class="buttons" id="items_form">
+                    <button type="submit" id="button" >Enviar</button>
+                    <button type="reset" id="button">Limpiar</button>
+                </div>    
+                
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="./JS/mostrarProdcutos.js" type="module"></script>
+    <script src="./JS/crearProducto.js" type="module"></script>
+    <script src="./JS/eliminarProducto.js" type="module"></script>
+</body>
+</html> 

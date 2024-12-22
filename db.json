@@ -1,0 +1,100 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Teclado Mecánico RGB",
+      "precio": 59.99,
+      "imagen": "https://example.com/teclado-mecanico.jpg"
+    },
+    {
+      "id": 2,
+      "nombre": "Mouse Inalámbrico",
+      "precio": 29.99,
+      "imagen": "https://example.com/mouse-inalambrico.jpg"
+    },
+    {
+      "id": 3,
+      "nombre": "Monitor 4K",
+      "precio": 299.99,
+      "imagen": "https://example.com/monitor-4k.jpg"
+    },
+    {
+      "id": 4,
+      "nombre": "Laptop Gaming",
+      "precio": 1299.99,
+      "imagen": "https://example.com/laptop-gaming.jpg"
+    },
+    {
+      "id": 5,
+      "nombre": "Auriculares Inalámbricos",
+      "precio": 99.99,
+      "imagen": "https://example.com/auriculares-inalambricos.jpg"
+    },
+    {
+      "id": 6,
+      "nombre": "Disco Duro Externo",
+      "precio": 79.99,
+      "imagen": "https://example.com/disco-duro.jpg"
+    },
+    {
+      "id": 7,
+      "nombre": "Memoria RAM DDR4",
+      "precio": 64.99,
+      "imagen": "https://example.com/memoria-ram.jpg"
+    },
+    {
+      "id": 8,
+      "nombre": "Placa Madre",
+      "precio": 149.99,
+      "imagen": "https://example.com/placa-madre.jpg"
+    },
+    {
+      "id": 9,
+      "nombre": "Procesador Intel Core i7",
+      "precio": 349.99,
+      "imagen": "https://example.com/procesador-i7.jpg"
+    },
+    {
+      "id": 10,
+      "nombre": "Tarjeta Gráfica RTX 3060",
+      "precio": 499.99,
+      "imagen": "https://example.com/tarjeta-grafica.jpg"
+    },
+    {
+      "id": 11,
+      "nombre": "Fuente de Poder 750W",
+      "precio": 109.99,
+      "imagen": "https://example.com/fuente-de-poder.jpg"
+    },
+    {
+      "id": 12,
+      "nombre": "Caja de PC ATX",
+      "precio": 89.99,
+      "imagen": "https://example.com/caja-pc.jpg"
+    },
+    {
+      "id": 13,
+      "nombre": "Impresora 3D",
+      "precio": 249.99,
+      "imagen": "https://example.com/impresora-3d.jpg"
+    },
+    {
+      "id": 14,
+      "nombre": "Router WiFi 6",
+      "precio": 129.99,
+      "imagen": "https://example.com/router-wifi6.jpg"
+    },
+    {
+      "id": 15,
+      "nombre": "Smartwatch",
+      "precio": 199.99,
+      "imagen": "https://example.com/smartwatch.jpg"
+    },
+    {
+      "id": "5943",
+      "nombre": "mouse",
+      "precio": "22",
+      "imagen": "https://es.aliexpress.com/item/32678286589.html?gatewayAdapt=glo2esp"
+    }
+  ]
+}
