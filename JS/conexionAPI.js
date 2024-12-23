@@ -21,15 +21,16 @@ async function enviarProducto(nombre,precio,imagen){
     return conexionConvertida;
 }
 
-async function eliminarProducto(id) {
+
+/*async function eliminarProducto(id) {
     const conexion = await fetch(`http://localhost:3001/productos/${id}`, {
         method: "DELETE",
     });
     const conexionConvertida = await conexion.json();
     return conexionConvertida;
-}
+}*/
 
 export const conexionAPI ={
-    listaProductos,enviarProducto,eliminarProducto
+    listaProductos,enviarProducto
 }
 

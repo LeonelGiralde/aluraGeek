@@ -2,9 +2,10 @@ import {conexionAPI} from "./conexionAPI.js";
 
 const lista = document.querySelector("[data-lista]");
 
-function crearCard(imagen, nombre, precio){
+function crearCard(imagen, nombre, precio,id){
     const producto = document.createElement("div");
     producto.className = "card";
+    producto.dataset.id = id; // Asigna el id al atributo data-id
     producto.innerHTML = `
             
             <div class="card>
@@ -14,7 +15,7 @@ function crearCard(imagen, nombre, precio){
                     
                     <section id="pie_card">
                         <p class="precio" id="item_card2">$${precio}</p>
-                        <button class="delete" data-delete>
+                        <button type="delete" class="delete" data-delete>
                          <span class="material-symbols-outlined" id="item_card2">
                             delete
                          </span>
@@ -31,7 +32,7 @@ function crearCard(imagen, nombre, precio){
 
 async function mostrarProductos(){
     const listaAPI = await conexionAPI.listaProductos();
-    listaAPI.forEach(producto => lista.appendChild(crearCard(producto.imagen, producto.nombre, producto.precio)));
+    listaAPI.forEach(producto => lista.appendChild(crearCard(producto.imagen, producto.nombre, producto.precio,producto.id)));
 
     
 }

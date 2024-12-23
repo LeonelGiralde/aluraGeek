@@ -1,6 +1,5 @@
-import { conexionAPI } from "./conexionAPI.js";
-
 async function eliminarProducto(id) {
+    
     if (!id) {
         console.error("ID del producto no proporcionado");
         return;
@@ -17,6 +16,7 @@ async function eliminarProducto(id) {
         console.error("Error en eliminarProducto:", error);
         throw error;
     }
+
 }
 
 document.querySelector("[data-lista]").addEventListener("click", async (event) => {
@@ -35,3 +35,4 @@ document.querySelector("[data-lista]").addEventListener("click", async (event) =
         }
     }
 });
+
